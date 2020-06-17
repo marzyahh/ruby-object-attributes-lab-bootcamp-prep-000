@@ -7,7 +7,7 @@ describe 'Dog' do
   end
 
   context 'with names' do
-    describe '#namer' do
+    describe '#na' do
       it 'writes the name of the dog to an instance variable @name' do
         fido = Dog.new
         fido.name = "Fido"
